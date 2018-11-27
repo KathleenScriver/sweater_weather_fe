@@ -42,12 +42,41 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  text-align: center;
+}
+
+#location-line-one p {
+  display: inline;
+  height: auto;
+  width: auto;
 }
 
 .sm-icon {
-  width: 40px;
-  height: 30px;
+  width: 35px;
+  height: 25px;
 }
+
+#now-temp {
+  font-size: 50px;
+}
+
+.lrg-deg-symbol {
+  width: 35px;
+  height: 38px;
+}
+
+.sm-deg-symbol {
+  width: 5px;
+  height: 5px;
+  transform: translateY(-7px);
+}
+
+#location-high-low p {
+  display: inline;
+  padding: 3px;
+}
+
+
 
 #flaticon {
   font-size: 10px;
