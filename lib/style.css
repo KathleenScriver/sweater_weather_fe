@@ -45,6 +45,10 @@ body {
   text-align: center;
 }
 
+#location-now-forecast p {
+  padding: 10px;
+}
+
 #location-line-one p {
   display: inline;
   height: auto;
@@ -74,6 +78,24 @@ body {
 #location-high-low p {
   display: inline;
   padding: 3px;
+}
+
+#location-section {
+  padding: 5px;
+}
+
+#city-state {
+  font-size: 33px;
+}
+
+#country {
+  font-size: 20px;
+  text-align: left;
+}
+
+#time-date {
+  font-size: 15px;
+  text-align: left;
 }
 
 
