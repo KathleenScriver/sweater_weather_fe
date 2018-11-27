@@ -37,3 +37,18 @@ body {
   text-align: center;
   flex: 0 auto;
 }
+
+#location-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sm-icon {
+  width: 40px;
+  height: 30px;
+}
+
+#flaticon {
+  font-size: 10px;
+}
