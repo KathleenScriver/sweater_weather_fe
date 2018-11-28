@@ -103,7 +103,12 @@ body {
 }
 
 #location-section {
+  margin-top: 35px;
   padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  line-height: 25px;
 }
 
 #city-state {
@@ -118,6 +123,17 @@ body {
 #time-date {
   font-size: 15px;
   text-align: left;
+}
+
+#change-location {
+  background-color: #838FBB;
+  font-size: 15px;
+  color: #E6F4F1;
+  border-radius: 50px;
+  height: auto;
+  padding: 8px;
+  margin: 20px;
+  align-self: flex-end;
 }
 
 #details-title {
