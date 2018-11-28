@@ -9,8 +9,8 @@ body {
 }
 
 #main-title {
-  color: #E6F4F1;
-  font-size: 20px;
+  color: #838FBB;
+  font-size: 30px;
   font-weight: 800;
   padding: 5px;
   margin-top: 8px;
@@ -49,6 +49,7 @@ body {
 .lower-box {
   text-align: center;
   flex: 0 auto;
+  margin-top: 15px;
 }
 
 .box-information {
@@ -81,6 +82,13 @@ body {
 .lrg-deg-symbol {
   width: 35px;
   height: 38px;
+}
+
+.md-deg-symbol {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  transform: translateY(-29px;)
 }
 
 .sm-deg-symbol {
@@ -156,6 +164,42 @@ body {
   border-collapse: separate;
   border-spacing: 15px;
 }
+
+#hourly-forecast-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#hourly-forecast-section div {
+  line-height: 25px;
+}
+
+.temp {
+  font-size: 30px;
+}
+
+#daily-forecast-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.day-section {
+  display: flex;
+  justify-content: space-around;
+  line-height: 70px;
+}
+
+.day {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+
+
 
 #flaticon {
   font-size: 8px;
