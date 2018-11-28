@@ -3,10 +3,15 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-#title {
+#main-title {
   font-size: 20px;
   font-weight: 700;
   padding: 5px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 1.1rem;
 }
 
 #top-boxes {
@@ -38,7 +43,7 @@ body {
   flex: 0 auto;
 }
 
-#location-box {
+.box-information {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -99,7 +104,35 @@ body {
   text-align: left;
 }
 
+#details-title {
+  font-size: 18px;
+  font-weight: 800;
+  float: left;
+}
 
+#details-left-section {
+  height: 300px;
+  width: 300px;
+  margin-top: 25px;
+}
+
+.lrg-icon {
+  width: 60px;
+  height: 60px;
+}
+
+#details-overview {
+  font-size: 30px;
+}
+
+#forecast-desc {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#forecast-desc p {
+  text-align: left;
+}
 
 #flaticon {
   font-size: 8px;
