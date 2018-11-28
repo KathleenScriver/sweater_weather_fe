@@ -37,3 +37,69 @@ body {
   text-align: center;
   flex: 0 auto;
 }
+
+#location-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+#location-now-forecast p {
+  padding: 10px;
+}
+
+#location-line-one p {
+  display: inline;
+  height: auto;
+  width: auto;
+}
+
+.sm-icon {
+  width: 35px;
+  height: 25px;
+}
+
+#now-temp {
+  font-size: 50px;
+}
+
+.lrg-deg-symbol {
+  width: 35px;
+  height: 38px;
+}
+
+.sm-deg-symbol {
+  width: 5px;
+  height: 5px;
+  transform: translateY(-7px);
+}
+
+#location-high-low p {
+  display: inline;
+  padding: 3px;
+}
+
+#location-section {
+  padding: 5px;
+}
+
+#city-state {
+  font-size: 33px;
+}
+
+#country {
+  font-size: 20px;
+  text-align: left;
+}
+
+#time-date {
+  font-size: 15px;
+  text-align: left;
+}
+
+
+
+#flaticon {
+  font-size: 10px;
+}
