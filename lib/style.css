@@ -58,6 +58,7 @@ body {
 .sm-icon {
   width: 35px;
   height: 25px;
+  transform: translateY(4px);
 }
 
 #now-temp {
@@ -101,5 +102,6 @@ body {
 
 
 #flaticon {
-  font-size: 10px;
+  font-size: 8px;
+  line-height: 10px;
 }
