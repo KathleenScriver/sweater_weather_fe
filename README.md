@@ -12,7 +12,6 @@ This project was aimed at building out a modular front-end in vanilla JavaScript
 * Technologies Used
   - HTML5
   - CSS3
-  - JavaScript (ES6)
   - JQuery
   
   
