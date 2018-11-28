@@ -1,12 +1,18 @@
 body {
   background-color: #838FBB;
   font-family: 'Montserrat', sans-serif;
+  background-image: url("https://farm5.staticflickr.com/4244/35228077242_b7097632a4_o.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 #main-title {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 800;
   padding: 5px;
+  margin-top: 8px;
 }
 
 .title {
@@ -27,7 +33,7 @@ body {
   border-style: none;
   border-radius: 2%;
   font-family: 'Quicksand', sans-serif;
-  opacity: 0.5;
+  opacity: 0.6;
   margin: 8px;
   padding: 8px;
 }
