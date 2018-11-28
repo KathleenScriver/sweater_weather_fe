@@ -110,10 +110,16 @@ body {
   float: left;
 }
 
+#info-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+  width: 100%;
+}
+
 #details-left-section {
-  height: 300px;
   width: 300px;
-  margin-top: 25px;
 }
 
 .lrg-icon {
@@ -127,11 +133,18 @@ body {
 
 #forecast-desc {
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 10px;
+  line-height: 19px;
 }
 
 #forecast-desc p {
   text-align: left;
+}
+
+#details-right-section table {
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 15px;
 }
 
 #flaticon {
