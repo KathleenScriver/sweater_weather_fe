@@ -125,7 +125,7 @@ body {
   text-align: left;
 }
 
-#change-location {
+.button {
   background-color: #838FBB;
   font-size: 15px;
   font-weight: 500;
@@ -134,7 +134,46 @@ body {
   height: auto;
   padding: 8px;
   margin: 20px;
+}
+
+#change-location-button {
   align-self: flex-end;
+}
+
+#change-location-popup {
+  width: 40%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  z-index: 2;
+  background-color: #838FBB;
+  border-radius: 30px;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+#location-input {
+  border-radius: 20px;
+  width: auto;
+  margin: 20px;
+  padding: 20px;
+  font-size: 15px;
+}
+
+#location-set-button {
+  margin: auto;
+}
+
+#cancel {
+  width: 15px;
+  height: 20px;
+  background-color: #838FBB;
+  color: white;
+  border: none;
 }
 
 #details-title {
