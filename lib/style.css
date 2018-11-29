@@ -1,7 +1,7 @@
 body {
   background-color: #838FBB;
   font-family: 'Montserrat', sans-serif;
-  background-image: url("https://farm5.staticflickr.com/4244/35228077242_b7097632a4_o.jpg");
+  background-image: url("https://farm3.staticflickr.com/2932/33616435241_0aa4101cb9_o.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -34,7 +34,7 @@ body {
   border-style: none;
   border-radius: 20px;
   font-family: 'Quicksand', sans-serif;
-  opacity: 0.6;
+  opacity: 0.8;
   margin: 8px;
   padding: 8px;
   box-shadow: 5px 5px 10px;
@@ -138,6 +138,11 @@ body {
 
 #change-location-button {
   align-self: flex-end;
+  box-shadow: 4px 4px 10px #838FBB;
+}
+
+#change-location-button:hover {
+  background-color: #466FC0;
 }
 
 #change-location-popup {
@@ -153,7 +158,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 #location-input {
@@ -174,6 +178,10 @@ body {
   background-color: #838FBB;
   color: white;
   border: none;
+}
+
+#cancel:hover {
+  color: black;
 }
 
 #details-title {
