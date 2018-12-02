@@ -21,18 +21,18 @@
       <div class='information-box top-box box-information'>
         <section id='location-now-forecast'>
           <div id='location-line-one'>
-            <p id='now-description'><img src="assets/partly-cloudy.png" alt='forecast icon' class='sm-icon'/> Partly Cloudy</p>
+            <p id='now-description'><img id='location-now-icon' src="assets/partly-cloudy.png" alt='forecast icon' class='sm-icon'/><span class='text'></span></p>
           </div>
-          <p id='now-temp'>38<img src='assets/degree-symbol.png', alt='degree symbol' class='lrg-deg-symbol'></p>
+          <p id='now-temp'><span class='text'>38</span><img src='assets/degree-symbol.png', alt='degree symbol' class='lrg-deg-symbol'></p>
           <section id='location-high-low'>
-            <p id='now-high'>High: 80<img src='assets/circle-shape-outline.png', alt='degree symbol' class='sm-deg-symbol'></p>
+            <p id='now-high'>High: <span id='now-high-number'>80</span><img src='assets/circle-shape-outline.png', alt='degree symbol' class='sm-deg-symbol'></p>
             <p id='now-low'>Low: 60<img src='assets/circle-shape-outline.png', alt='degree symbol' class='sm-deg-symbol'></p>
           </section>
         </section>
         <section id='location-section'>
           <p id='city-state'>Denver, CO</p>
           <p id='country'>United States</p>
-          <p id='time-date'>11:11pm, 10/31</p>
+          <p id='time-date'></p>
           <button id='change-location-button' class='button' type='button'>Change Location</button>
         </section>
       </div>
@@ -161,7 +161,9 @@
 
   <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/moment"></script>
   <script src="main.bundle.js"></script>
   <script src="./lib/index.js"></script>
+
 </body>
 </html>
