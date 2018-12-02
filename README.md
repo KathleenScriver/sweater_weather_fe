@@ -13,6 +13,7 @@ This project was aimed at building out a modular front-end in vanilla JavaScript
   - HTML5
   - CSS3
   - JQuery
+  - ES6
   
   
 
