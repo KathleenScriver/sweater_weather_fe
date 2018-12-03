@@ -74,7 +74,8 @@
 	  $('#city-state').text(location);
 	};
 
-	var getImage = function getImage() {
+	var getImage = function getImage(e) {
+	  e.preventDefault();
 	  var imageLocation = localStorage.getItem('location');
 
 	  fetch('https://sweater-weather-ky.herokuapp.com/api/v1/background?location=' + imageLocation).then(function (response) {
