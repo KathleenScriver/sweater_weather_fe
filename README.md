@@ -16,4 +16,15 @@ This project was aimed at building out a modular front-end in vanilla JavaScript
   - ES6
   
   
-
+* Setup
+  If you would like to clone down this project, open up your terminal and when you're in the directory you'd like to put this in, type these commands:
+  ```1. https://github.com/KathleenYruegas/sweater_weather_fe.git
+     2. npm install
+     3. npm start (to start your server)
+     ```
+    You can then visit `localhost:8080` to see the site.
+    
+* Core Contributors
+  This app was built by myself, Kathleen Yruegas, github.com/KathleenYruegas
+  
+  
