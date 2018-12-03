@@ -1,6 +1,6 @@
 [![Waffle.io - Issues in progress](https://badge.waffle.io/KathleenYruegas/sweater_weather_fe.png?label=in%20progress&title=In%20Progress)](http://waffle.io/KathleenYruegas/sweater_weather_fe)
 
-Sweater Weather is a weather app designed to give the user varying degrees of information based upon the location they select. There is a section for current weather, a daily overview, an hourly forecast, as well as the 5-day forecase. The background image changes based upon the location the user puts in.
+Sweater Weather is a weather app designed to give the user varying degrees of information based upon the location they select. There is a section for current weather, a daily overview, an hourly forecast, as well as the 5-day forecast. The background image changes based upon the location the user puts in.
 
 Visit the deployed site here: https://kathleenyruegas.github.io/sweater_weather_fe/
 
