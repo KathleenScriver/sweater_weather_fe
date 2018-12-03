@@ -28,5 +28,24 @@ This project was aimed at building out a modular front-end in vanilla JavaScript
      ```
     You can then visit `localhost:8080` to see the site.
 
+* The App
 
-<img src='assets/location-now-section.png'>
+<img src='assets/whole-page-screenshot.png'>
+
+
+  This app has three sections, the upper left-hand section displays the location (default is Denver, CO) input by the user when they click on Change Location. All the information is then updated via information retrieve from making a fetch call to an endpoint where the time, temperature, and forecast information is received.
+ <img src='assets/location-now-section.png'>
+
+  The upper right-hand section will also update accordingly with the user's chosen location.
+  <img src='assets/details-section.png'>
+
+  The bottom section shows an hourly breakdown of temperatures as well as the next 5 days' forecasts.  All of this information from all 3 sections is pulled from one API call.
+  <img src='assets/forecast-section.png'>
+
+  The background image is generated based on the given location. The app makes an API call to an endpoint that generates a random image relevant to that location.  
+
+* Next Iteration
+  - User button to hide all three information boxes so the background picture can be fully viewed.
+  - User button so a new background image would be generated.
+  - Ability to log in.
+  - Ability for logged in user to favorite locations.
