@@ -18,7 +18,8 @@ This project was aimed at building out a modular front-end in vanilla JavaScript
   
 * Setup
   If you would like to clone down this project, open up your terminal and when you're in the directory you'd like to put this in, type these commands:
-  ```1. https://github.com/KathleenYruegas/sweater_weather_fe.git
+  ```
+     1. https://github.com/KathleenYruegas/sweater_weather_fe.git
      2. npm install
      3. npm start (to start your server)
      ```
