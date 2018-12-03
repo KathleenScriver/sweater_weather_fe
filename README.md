@@ -46,6 +46,5 @@ This project was aimed at building out a modular front-end in vanilla JavaScript
 
 * Next Iteration
   - User button to hide all three information boxes so the background picture can be fully viewed.
-  - User button so a new background image would be generated.
   - Ability to log in.
   - Ability for logged in user to favorite locations.
